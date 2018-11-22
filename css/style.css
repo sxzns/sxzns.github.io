@@ -35,4 +35,13 @@ img{
 }
 body{
     background-color: #000000 !important;
+    font-family: 'Open Sans' !important;
+}
+.modalHeaders{
+    font-family: 'Open Sans';
+    font-size: 70px;
+}
+.modalContent{
+    font-family: 'Open Sans';
+    font-size: 20px;
 }
