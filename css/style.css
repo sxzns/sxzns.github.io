@@ -10,8 +10,8 @@
     height: auto;
     min-height: 100%;
     min-width: 100%;
-    background-color: #000000 !important;
-    color: white;
+    background-color: #32383e !important;
+    color: #FFFFFF;
     border: none !important;
     border-radius: 0px !important;
 }
@@ -34,14 +34,19 @@ img{
     height: auto;
 }
 body{
-    background-color: #000000 !important;
+    background-color: #32383e !important;
     font-family: 'Open Sans' !important;
 }
 .modalHeaders{
     font-family: 'Open Sans';
     font-size: 70px;
+    font-weight: 100;
 }
 .modalContent{
     font-family: 'Open Sans';
+    color: #000000
     font-size: 20px;
+}
+#section1{
+
 }
