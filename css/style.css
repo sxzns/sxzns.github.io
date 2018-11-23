@@ -76,3 +76,9 @@ body {
     -o-transition: opacity .2s linear, none;
     transition: opacity .2s linear, none;
 }
+.exitIcon{
+    width: 20px !important;
+    height: 20px !important;
+    float: right;
+    margin: 20px;
+}

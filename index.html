@@ -45,42 +45,38 @@
     <meta name="theme-color" content="#000000">
     <script type="text/javascript" src="jquery/app.js"></script>
     <script type="text/javascript" src="jquery/particles.js"></script>
-
 </head>
 
 <body>
     <div class="modal fade contactTrackListModal" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdPjmggBzMeoxHXnVO3jAg8Q7pDnr6oR6WvfAyQCX2yHpYG_Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-            <div class="form-group">
-              <label>Email address</label>
-              <input type="email" class="form-control" name="entry.1522294803" id="entry.1522294803" placeholder="name@example.com" required>
+        <a href="#"><img src="img/clear.svg" class="exitIcon" data-dismiss="modal"></a>
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdPjmggBzMeoxHXnVO3jAg8Q7pDnr6oR6WvfAyQCX2yHpYG_Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                        <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" name="entry.1522294803" id="entry.1522294803" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" name="entry.1009834546" id="entry.1009834546" placeholder="John Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control" name="entry.888680424" id="entry.888680424" required rows="3"></textarea>
+                        </div>
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                    </form>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                </div>
             </div>
-            <div class="form-group">
-              <label>Name</label>
-              <input type="text" class="form-control" name="entry.1009834546" id="entry.1009834546" placeholder="John Smith" required>
-            </div>
-            <div class="form-group">
-              <label>Message</label>
-              <textarea class="form-control" name="entry.888680424" id="entry.888680424" required rows="3"></textarea>
-            </div>
-            <input class="btn btn-primary" type="submit" value="Submit">
-          </form>
-          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
         </div>
-
-      </div>
     </div>
-  </div>
     <div id="particles-js"></div>
     <div id="fullpage">
-
         <div class="section" id="section0">
-
             <img class="header" src="img/logo.svg">
-
         </div>
         <div class="section" id="section1">
             <img class="test" src="img/facade.svg" data-toggle="modal" data-target="#facade">
@@ -90,21 +86,18 @@
         </div>
         <div class="section" id="section3">
             <img src="img/tour.svg" data-toggle="modal" data-target="#tour">
-
         </div>
         <div class="section" id="section4">
             <img src="img/merch.svg" data-toggle="modal" data-target="#merch">
-
         </div>
         <div class="section" id="section5">
             <img src="img/contact.svg" data-toggle="modal" data-target="#contact">
         </div>
     </div>
-
     <div class="modal fade" id="facade" tabindex="-1" role="dialog" aria-labelledby="merch" aria-hidden="true">
-        <div class="Mainmodal-dialog modal-dialog-centered" role="document">
-            <div class="Mainmodal-content">
-
+        <div class="Mainmodal-dialog modal-dialog modal-dialog-centered" role="document">
+            <div class="Mainmodal-content modal-content">
+                <a href="#"><img src="img/clear.svg" class="exitIcon" data-dismiss="modal"></a>
                 <div class="modal-body">
                     <h1 class="modalHeaders">the facade</h1>
                     <p class="modalContent">
@@ -121,22 +114,19 @@
                         placerat tortor id mattis mattis. Fusce mauris felis, sodales ut metus sit amet, sodales porta massa. Morbi nec magna et magna bibendum pharetra ac at nibh. Proin a blandit diam. Donec vitae volutpat ligula. Suspendisse sed ligula
                         quam. Donec convallis nisl non neque efficitur sagittis. Suspendisse porta dictum metus vel aliquet. Nam vitae justo vehicula, placerat ante id, ultricies felis. Cras orci velit, hendrerit nec augue eu, posuere laoreet elit. Nulla
                         ac maximus mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla ullamcorper convallis tellus, eu vehicula ipsum tristique vitae.
-
                     </p>
                 </div>
                 <div class="Mainmodal-footer">
-
                 </div>
             </div>
         </div>
     </div>
     <div class="modal fade contactTrackListModal" id="tracklist" tabindex="-1" role="dialog" aria-labelledby="merch" aria-hidden="true">
+        <a href="#"><img src="img/clear.svg" class="exitIcon" data-dismiss="modal"></a>
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-
                 <div class="modal-body">
                     <h1 class="modalHeaders">tracklist</h1>
-
                     <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/530906469&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
                     <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/528976284&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
                 </div>
@@ -147,9 +137,9 @@
         </div>
     </div>
     <div class="modal fade" id="tour" tabindex="-1" role="dialog" aria-labelledby="merch" aria-hidden="true">
-        <div class="Mainmodal-dialog modal-dialog-centered" role="document">
-            <div class="Mainmodal-content">
-
+        <div class="Mainmodal-dialog modal-dialog modal-dialog-centered" role="document">
+            <div class="Mainmodal-content modal-content">
+                <a href="#"><img src="img/clear.svg" class="exitIcon" data-dismiss="modal"></a>
                 <div class="modal-body">
                     <h1 class="modalHeaders">tour dates</h1>
                     <table class="table table-dark">
@@ -246,14 +236,16 @@
         </div>
     </div>
     <div class="modal fade" id="merch" tabindex="-1" role="dialog" aria-labelledby="merch" aria-hidden="true">
-        <div class="Mainmodal-dialog modal-dialog-centered" role="document">
-            <div class="Mainmodal-content">
+        <div class="Mainmodal-dialog modal-dialog modal-dialog-centered" role="document">
+            <div class="Mainmodal-content modal-content">
+                <a href="#"><img src="img/clear.svg" class="exitIcon" data-dismiss="modal"></a>
+                <img src="img/clear.svg" class="exitIcon" data-dismiss="modal">
 
                 <div class="modal-body">
                     Seasons change everything.
                 </div>
                 <div class="Mainmodal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
                 </div>
             </div>
         </div>
