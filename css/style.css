@@ -20,6 +20,11 @@
 .Mainmodal-footer {
     border: none !important;
 }
+.contactModal{
+    background-color: #32383e !important;
+    color: #32383e !important;
+    text-align: left !important;
+}
 
 img {
     width: 70%;
